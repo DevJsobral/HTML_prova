@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap%27');
+
+body {
+	background: #4F4F4F;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sora', sans-serif;
+}
+
+.cabecalho {
+	text-align: center;
+	margin: 0 auto;
+	background: #000000;
+}
+
+.logo {
+	width: 125px;
+	padding: 15px;
+}
+
+.navegacao {
+	color: #FFFFFF;
+}
+
+.lista-nav li{
+	display: inline-block;
+	padding: 10px;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;	
+	padding: 10px 33px 10px 33px;
+}
+
+a{
+	text-decoration: none;	
+	color: #FFFFFF;
+}
+
+a:hover{
+	color: #868686;
+}
+
+.container{
+	flex-wrap: wrap;
+	display: flex;
+	margin: 0 auto;
+	max-width: 96vh;
+	min-width: 96vh;
+	margin-top: 2vh;
+}
+
+.active{
+	color: #868686;
+}
+
+.imagens{
+	display: flexbox;
+	flex-wrap: wrap;
+	max-width: 50%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.imagens img{
+	margin-top: 3vh;
+	box-shadow: #0000002a 3px 3px 3px;
+}
+
+.product{
+	display: flex;
+	margin-top: 4vh;
+}
+
+.pinfos{
+	max-width: 50%;
+	margin-left: 4vh;
+	padding: 15px;
+	background-color: rgb(212, 212, 212);
+	border-radius: 10px;
+}
+
+.imagens .smallimg{
+	margin: 4px;
+	box-shadow: #0000002a 3px 3px 3px;
+}
+
+.button {
+	margin: 10px;
+	float: right;
+	cursor: pointer;
+	background-color: #4CAF50; 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 3px;
+  }
+
+  .button:hover{
+	background-color: #327534;
+  }
+
+  .preco{
+	font-size: 4vh;
+  }
+
+  .pix{
+	margin: 2vh 0px;
+	min-width: 100%;
+	color: green;
+	font-size: 2vh;
+}
+
+  .parcelamento{
+	min-width: 100%;
+	margin: 2vh 0px;
+  }

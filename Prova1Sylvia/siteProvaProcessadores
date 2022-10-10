@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+	<meta charset= "UTF-8">
+	<link rel="stylesheet" href="prova.css">
+	<title>ToPC</title>	
+	<link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+	<header class="cabecalho">
+		
+		<img class="logo" src="logo-site.jpg">
+
+		<nav class="navegacao">
+			<ul class="lista-nav">
+				<li><a href="siteProva.html">Home</a></li>
+				<li><a href="siteProvaProcessadores.html">Processadores</a></li>
+				<li><a href="provaGabinetes.html">Gabinetes</a></li>
+				<li><a href="pvideo.html">Placas de vídeo</a></li>
+				<li><a href="siteProvaRam.html">RAM</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="apresentacao">
+		<h1 class="titulo-principal">Processadores</h1>
+		<p class="texto-intro"> Os processadores são como o cérebro de seu computador, nele reside as unidades lógicas que processarão todo a demanda que será feita sobre o mesmo, aqui estão alguns exemplos.</p>
+	</div>
