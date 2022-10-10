@@ -38,6 +38,7 @@ body {
 	font-size: 35px;
 	font-weight: bold;
 	padding-bottom: 35px;
+	padding-top: 35px;
 }
 
 .texto-intro {
@@ -98,10 +99,41 @@ body {
 	padding: 10px 33px 10px 33px;
 }
 
+.areagab {
+	width: 1050px;
+	padding: 45px;
+	text-align: center;
+	width: 1050px;
+	margin: 0 auto;
+
+}
+
 .imggab {
 	padding-top: 100px;
 	width: 300px;
+	margin-left: 20px;
 }
+
+.imgproc {
+	width: 350px;
+	padding-top: 35px;
+}
+
+.texto-proc {
+	font-size: 20px;
+	padding-bottom: 40px;
+}
+
+.areaproc {
+	width: 1080px;
+	text-align: center;
+	margin: 0 auto; 
+}
+
+
+
+
+//CSS PVIDEO
 
 a{
 	text-decoration: none;	
